@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-03T15:40:13 IST" name="Studio SaaS Admin UI" finished-at="2025-06-03T15:41:38 IST" duration-ms="85183">
+    <groups>
+    </groups>
+    <test started-at="2025-06-03T15:40:13 IST" name="To test Login use case" finished-at="2025-06-03T15:40:35 IST" duration-ms="21962">
+      <class name="testCases.Login">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:testCases.Login@6236eb5f]" started-at="2025-06-03T15:40:13 IST" name="loadConfig" finished-at="2025-06-03T15:40:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:testCases.Login@6236eb5f]" started-at="2025-06-03T15:40:13 IST" name="startBrowser" finished-at="2025-06-03T15:40:13 IST" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="loginPage(java.lang.String,java.lang.String)[pri:0, instance:testCases.Login@6236eb5f]" started-at="2025-06-03T15:40:13 IST" name="loginPage" data-provider="loginData" finished-at="2025-06-03T15:40:17 IST" duration-ms="3474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[volante@12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:testCases.Login@6236eb5f]" started-at="2025-06-03T15:40:17 IST" name="startBrowser" finished-at="2025-06-03T15:40:17 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="loginPage(java.lang.String,java.lang.String)[pri:0, instance:testCases.Login@6236eb5f]" started-at="2025-06-03T15:40:17 IST" name="loginPage" data-provider="loginData" finished-at="2025-06-03T15:40:35 IST" duration-ms="17789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vol-admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[volante@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+      </class> <!-- testCases.Login -->
+    </test> <!-- To test Login use case -->
+    <test started-at="2025-06-03T15:40:35 IST" name="To test Tenant Creation use case" finished-at="2025-06-03T15:41:24 IST" duration-ms="49008">
+      <class name="testCases.TenantCreation">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:testCases.TenantCreation@2e1d27ba]" started-at="2025-06-03T15:40:35 IST" name="loadConfig" finished-at="2025-06-03T15:40:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method signature="tenantCreation()[pri:0, instance:testCases.TenantCreation@2e1d27ba]" started-at="2025-06-03T15:40:35 IST" name="tenantCreation" finished-at="2025-06-03T15:41:24 IST" duration-ms="49005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tenantCreation -->
+      </class> <!-- testCases.TenantCreation -->
+    </test> <!-- To test Tenant Creation use case -->
+    <test started-at="2025-06-03T15:41:24 IST" name="To test Add User use case" finished-at="2025-06-03T15:41:25 IST" duration-ms="790">
+      <class name="testCases.AddUser">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:testCases.AddUser@776b83cc]" started-at="2025-06-03T15:41:24 IST" name="loadConfig" finished-at="2025-06-03T15:41:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method signature="addUser()[pri:0, instance:testCases.AddUser@776b83cc]" started-at="2025-06-03T15:41:24 IST" name="addUser" finished-at="2025-06-03T15:41:25 IST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+      </class> <!-- testCases.AddUser -->
+    </test> <!-- To test Add User use case -->
+    <test started-at="2025-06-03T15:41:25 IST" name="To test create deployment use case" finished-at="2025-06-03T15:41:30 IST" duration-ms="5270">
+      <class name="testCases.CreateDeployment">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:testCases.CreateDeployment@5939a379]" started-at="2025-06-03T15:41:25 IST" name="loadConfig" finished-at="2025-06-03T15:41:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method signature="createDeployment()[pri:0, instance:testCases.CreateDeployment@5939a379]" started-at="2025-06-03T15:41:25 IST" name="createDeployment" finished-at="2025-06-03T15:41:30 IST" duration-ms="5267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDeployment -->
+      </class> <!-- testCases.CreateDeployment -->
+    </test> <!-- To test create deployment use case -->
+    <test started-at="2025-06-03T15:41:30 IST" name="To test create release use case" finished-at="2025-06-03T15:41:38 IST" duration-ms="7227">
+      <class name="testCases.CreateRelease">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:testCases.CreateRelease@2892dae4]" started-at="2025-06-03T15:41:30 IST" name="loadConfig" finished-at="2025-06-03T15:41:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method signature="createRelease()[pri:0, instance:testCases.CreateRelease@2892dae4]" started-at="2025-06-03T15:41:30 IST" name="createRelease" finished-at="2025-06-03T15:41:38 IST" duration-ms="7224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRelease -->
+      </class> <!-- testCases.CreateRelease -->
+    </test> <!-- To test create release use case -->
+    <test started-at="2025-06-03T15:41:38 IST" name="To test upgrade volpay use case" finished-at="2025-06-03T15:41:38 IST" duration-ms="303">
+      <class name="testCases.UpgradeVolpay">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.UpgradeVolpay@482bce4f]" started-at="2025-06-03T15:40:07 IST" name="setUp" finished-at="2025-06-03T15:40:13 IST" duration-ms="5682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="upgradeVolpay()[pri:0, instance:testCases.UpgradeVolpay@482bce4f]" started-at="2025-06-03T15:41:38 IST" name="upgradeVolpay" finished-at="2025-06-03T15:41:38 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upgradeVolpay -->
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:testCases.UpgradeVolpay@482bce4f]" started-at="2025-06-03T15:41:38 IST" name="loadConfig" finished-at="2025-06-03T15:41:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.UpgradeVolpay@482bce4f]" started-at="2025-06-03T15:41:38 IST" name="tearDown" finished-at="2025-06-03T15:41:38 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.UpgradeVolpay -->
+    </test> <!-- To test upgrade volpay use case -->
+  </suite> <!-- Studio SaaS Admin UI -->
+</testng-results>

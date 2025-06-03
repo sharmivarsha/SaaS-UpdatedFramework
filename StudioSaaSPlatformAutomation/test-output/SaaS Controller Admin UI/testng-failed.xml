@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SaaS Controller Admin UI]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Tenant Creation Test case(failed)">
+    <classes>
+      <class name="testCases.Tenant_creation">
+        <methods>
+          <include name="tenantCreation"/>
+          <include name="launchbrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.Tenant_creation -->
+    </classes>
+  </test> <!-- Tenant Creation Test case(failed) -->
+</suite> <!-- Failed suite [SaaS Controller Admin UI] -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "Studio SaaS Admin UI" >
+
+<listeners>
+<listener class-name="utils.ExtentReportListener"/>
+</listeners>
+<test name= "To test Login use case">
+<classes>
+<class name = "testCases.Login"/>
+<parameter name="browser" value="chrome"></parameter>
+</classes>
+</test>
+<test name= "To test Tenant Creation use case">
+<classes>
+<class name = "testCases.TenantCreation"/>
+</classes>
+</test>
+<test name= "To test Add User use case">
+<classes>
+<class name = "testCases.AddUser"/>
+</classes>
+</test>
+<test name= "To test create deployment use case">
+<classes>
+<class name = "testCases.CreateDeployment"/>
+</classes>
+</test>
+<test name= "To test create release use case">
+<classes>
+<class name = "testCases.CreateRelease"/>
+</classes>
+</test>
+<test name= "To test upgrade volpay use case">
+<classes>
+<class name = "testCases.UpgradeVolpay"/>
+</classes>
+</test>
+</suite>

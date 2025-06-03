@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Studio_SaaS_Admin_UI" class="navigator-link">
+              <span class="suite-name border-passed">Studio SaaS Admin UI</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Studio_SaaS_Admin_UI" class="navigator-link ">
+                    <span>TestNg.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Studio_SaaS_Admin_UI" class="navigator-link ">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Studio_SaaS_Admin_UI" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Studio_SaaS_Admin_UI" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Studio_SaaS_Admin_UI" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Studio_SaaS_Admin_UI" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Studio_SaaS_Admin_UI" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Studio_SaaS_Admin_UI" class="hide-methods passed suite-Studio_SaaS_Admin_UI"> (hide)</a> <!-- hide-methods passed suite-Studio_SaaS_Admin_UI -->
+                      <a href="#" panel-name="suite-Studio_SaaS_Admin_UI" class="show-methods passed suite-Studio_SaaS_Admin_UI"> (show)</a> <!-- show-methods passed suite-Studio_SaaS_Admin_UI -->
+                    </span>
+                    <div class="method-list-content passed suite-Studio_SaaS_Admin_UI">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Studio_SaaS_Admin_UI" title="testCases.AddUser" class="method navigator-link" hash-for-method="addUser">addUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Studio_SaaS_Admin_UI" title="testCases.CreateDeployment" class="method navigator-link" hash-for-method="createDeployment">createDeployment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Studio_SaaS_Admin_UI" title="testCases.CreateRelease" class="method navigator-link" hash-for-method="createRelease">createRelease</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Studio_SaaS_Admin_UI" title="testCases.Login" class="method navigator-link" hash-for-method="loginPage(admin, volante@12)">loginPage(admin, volante@12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Studio_SaaS_Admin_UI" title="testCases.Login" class="method navigator-link" hash-for-method="loginPage(vol-admin, volante@123)">loginPage(vol-admin, volante@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Studio_SaaS_Admin_UI" title="testCases.TenantCreation" class="method navigator-link" hash-for-method="tenantCreation">tenantCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Studio_SaaS_Admin_UI" title="testCases.UpgradeVolpay" class="method navigator-link" hash-for-method="upgradeVolpay">upgradeVolpay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Studio_SaaS_Admin_UI -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Studio_SaaS_Admin_UI" class="panel Studio_SaaS_Admin_UI">
+          <div class="suite-Studio_SaaS_Admin_UI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.CreateDeployment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createDeployment">
+                  </a> <!-- createDeployment -->
+                  <span class="method-name">createDeployment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Studio_SaaS_Admin_UI-class-passed -->
+          <div class="suite-Studio_SaaS_Admin_UI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.UpgradeVolpay</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="upgradeVolpay">
+                  </a> <!-- upgradeVolpay -->
+                  <span class="method-name">upgradeVolpay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Studio_SaaS_Admin_UI-class-passed -->
+          <div class="suite-Studio_SaaS_Admin_UI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPage(admin, volante@12)">
+                  </a> <!-- loginPage(admin, volante@12) -->
+                  <span class="method-name">loginPage</span>
+                  <span class="parameters">(admin, volante@12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPage(vol-admin, volante@123)">
+                  </a> <!-- loginPage(vol-admin, volante@123) -->
+                  <span class="method-name">loginPage</span>
+                  <span class="parameters">(vol-admin, volante@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Studio_SaaS_Admin_UI-class-passed -->
+          <div class="suite-Studio_SaaS_Admin_UI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.AddUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUser">
+                  </a> <!-- addUser -->
+                  <span class="method-name">addUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Studio_SaaS_Admin_UI-class-passed -->
+          <div class="suite-Studio_SaaS_Admin_UI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.CreateRelease</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createRelease">
+                  </a> <!-- createRelease -->
+                  <span class="method-name">createRelease</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Studio_SaaS_Admin_UI-class-passed -->
+          <div class="suite-Studio_SaaS_Admin_UI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TenantCreation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tenantCreation">
+                  </a> <!-- tenantCreation -->
+                  <span class="method-name">tenantCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Studio_SaaS_Admin_UI-class-passed -->
+        </div> <!-- panel Studio_SaaS_Admin_UI -->
+        <div panel-name="test-xml-Studio_SaaS_Admin_UI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/sharmila.p/sharmila/Eclipse/Final/Updated/StudioSaaSPlatformAutomation/TestNg.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Studio SaaS Admin UI&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;To test Login use case&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.Login&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- To test Login use case --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;To test Tenant Creation use case&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TenantCreation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- To test Tenant Creation use case --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;To test Add User use case&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.AddUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- To test Add User use case --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;To test create deployment use case&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.CreateDeployment&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- To test create deployment use case --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;To test create release use case&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.CreateRelease&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- To test create release use case --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;To test upgrade volpay use case&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.UpgradeVolpay&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- To test upgrade volpay use case --&gt;
+&lt;/suite&gt; &lt;!-- Studio SaaS Admin UI --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Studio_SaaS_Admin_UI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Studio SaaS Admin UI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">To test Login use case (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">To test Tenant Creation use case (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">To test Add User use case (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">To test create deployment use case (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">To test create release use case (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">To test upgrade volpay use case (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Studio_SaaS_Admin_UI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Studio SaaS Admin UI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Studio_SaaS_Admin_UI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Studio SaaS Admin UI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Studio_SaaS_Admin_UI');
+function tableData_Studio_SaaS_Admin_UI() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tenantCreation')
+data.setCell(0, 2, 'testCases.TenantCreation')
+data.setCell(0, 3, 49005);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginPage')
+data.setCell(1, 2, 'testCases.Login')
+data.setCell(1, 3, 17789);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createRelease')
+data.setCell(2, 2, 'testCases.CreateRelease')
+data.setCell(2, 3, 7224);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createDeployment')
+data.setCell(3, 2, 'testCases.CreateDeployment')
+data.setCell(3, 3, 5267);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginPage')
+data.setCell(4, 2, 'testCases.Login')
+data.setCell(4, 3, 3474);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addUser')
+data.setCell(5, 2, 'testCases.AddUser')
+data.setCell(5, 3, 787);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'upgradeVolpay')
+data.setCell(6, 2, 'testCases.UpgradeVolpay')
+data.setCell(6, 3, 300);
+window.suiteTableData['Studio_SaaS_Admin_UI']= { tableData: data, tableDiv: 'times-div-Studio_SaaS_Admin_UI'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Studio_SaaS_Admin_UI">
+              </div> <!-- times-div-Studio_SaaS_Admin_UI -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Studio_SaaS_Admin_UI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Studio SaaS Admin UI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Studio_SaaS_Admin_UI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Studio_SaaS_Admin_UI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.UpgradeVolpay</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loadConfig</span>
+                <span class="method-start">5786 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">5791 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPage(admin, volante@12)</span>
+                <span class="method-start">6336 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">9812 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPage(vol-admin, volante@123)</span>
+                <span class="method-start">9853 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TenantCreation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loadConfig</span>
+                <span class="method-start">28001 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">tenantCreation</span>
+                <span class="method-start">28002 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.AddUser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loadConfig</span>
+                <span class="method-start">77083 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addUser</span>
+                <span class="method-start">77084 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.CreateDeployment</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loadConfig</span>
+                <span class="method-start">77899 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createDeployment</span>
+                <span class="method-start">77900 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.CreateRelease</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loadConfig</span>
+                <span class="method-start">83255 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createRelease</span>
+                <span class="method-start">83256 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.UpgradeVolpay</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">upgradeVolpay</span>
+                <span class="method-start">90565 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">loadConfig</span>
+                <span class="method-start">90565 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90890 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
